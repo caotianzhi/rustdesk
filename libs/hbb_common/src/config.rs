@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["rustdesk.andy-nas.top"];
-pub const PUBLIC_RS_PUB_KEY: &str = "QTH+oNwC6Erlm7Fi8NcI3zDlAVkenn2G3E6KBDXMtvo=";
+pub const PUBLIC_RS_PUB_KEY: &str = "mAjVgBS4+9vJWPf7Lj18N4j8PMVM9TGQmyfYy1GHumc=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
